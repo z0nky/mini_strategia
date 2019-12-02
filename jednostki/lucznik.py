@@ -3,8 +3,7 @@ from wojownik import Wojownik
 
 class Lucznik(Wojownik):
     def __init__(self):
-        super().__init__()
-        self.life = 40
+        super().__init__(life=40)
         self.arrows = 10
 
     def maszeruj(self, dystans):

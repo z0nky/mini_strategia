@@ -1,17 +1,13 @@
-class Alien:
-  def show_class_name(self):
-      print(self.__class__.__name__, 'believes in extraterrestrials!')
+from wojownik import Wojownik
 
+w1 = Wojownik(10)
 
-class Student(Alien):
-    pass
+print(w1)
 
+w2 = Wojownik(0)
 
-class Human(Alien):
-    pass
+print(w2)
 
-s = Student()
-s.show_class_name()
+w3 = Wojownik(-100)
 
-h = Human()
-h.show_class_name()
+print(w3)

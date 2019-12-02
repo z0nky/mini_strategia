@@ -3,8 +3,7 @@ from wojownik import Wojownik
 
 class Rycerz(Wojownik):
     def __init__(self):
-        super().__init__()
-        self.life = 60
+        super().__init__(life=60)
 
     def maszeruj(self, dystans):
         self.experience += (int(dystans) * 0.2)
